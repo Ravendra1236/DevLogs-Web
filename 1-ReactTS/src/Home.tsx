@@ -9,8 +9,8 @@
 
 type PropsType = {
   name: string;
-  surname: string;
-  age: number;
+  surname?: string;
+  age?: number;
   isEligible: boolean;
 }
 
