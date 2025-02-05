@@ -1,6 +1,7 @@
 import "./App.css";
-import Child from "./Child";
-import Parent from "./Parent";
+// import Child from "./Child";
+// import Parent from "./Parent";
+import SignIn from "./SignIn";
 // import Log from "./Log";
 // import Home from "./Home";
 // import PersonDetails from "./PersonDetails";
@@ -51,7 +52,10 @@ function App() {
   // return <Log status="Info" />;
 
   // Passing Component as props :
-  return <Parent Children={<Child></Child>}></Parent>;
+  // return <Parent Children={<Child></Child>}></Parent>;
+
+  // TS in useState-Hook
+  return <SignIn/>
 }
 
 export default App;
